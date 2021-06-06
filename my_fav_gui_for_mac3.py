@@ -30,7 +30,7 @@ from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 sys.path.append("/Users/anagtv/Desktop/Cyclotron_python/")
 import matplotlib.pyplot as plt
-import saving_files_summary
+#import saving_files_summary
 #import saving_files_summary_list
 #import plotting_summary_files_one_target
 #import saving_files_summary_list_20200420
@@ -3002,7 +3002,7 @@ class window(QMainWindow):
         self.plot_trending_source.ax2.set_xticklabels(self.df_source_trends_selected_cyclotron.DATE, rotation=45)
         self.plot_trending_source.ax2.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
         self.plot_trending_source.axes.legend(loc=2,ncol=4,fontsize=12)
-        self.plot_trending_source.ax2.legend(loc=1,ncol=1,fontsize=12)
+        self.plot_trending_source.ax2.legend(loc=4,ncol=1,fontsize=12)
         self.plot_trending_source.draw()
         self.plot_trending_source.show()
 
